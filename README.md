@@ -1,7 +1,6 @@
-Once returned from Milano and with my future undoubtly decided, Python is essential.
+# ML Project Structure
 
-
-ML Project Structure
+```
 project_name/
 ├── README.md
 ├── requirements.txt
@@ -77,38 +76,39 @@ project_name/
     ├── model_documentation.md
     ├── etl_documentation.md
     └── deployment_guide.md
-Key Design Principles
-Data Flow Organization
+```
 
-Raw data stays immutable in data/raw/
-Interim data for intermediate processing steps
-Processed data for final model-ready datasets
-Clear separation between exploration (notebooks) and production code (src/)
+## Key Design Principles
 
-Modular Architecture
+### Data Flow Organization
+- **Raw data** stays immutable in `data/raw/`
+- **Interim data** for intermediate processing steps
+- **Processed data** for final model-ready datasets
+- Clear separation between exploration (notebooks) and production code (src/)
 
-ETL module handles all data pipeline operations
-Preprocessing module contains reusable data cleaning and transformation functions
-Models module implements training and prediction logic
-Utils module provides common utilities across the project
+### Modular Architecture
+- **ETL module** handles all data pipeline operations
+- **Preprocessing module** contains reusable data cleaning and transformation functions
+- **Models module** implements training and prediction logic
+- **Utils module** provides common utilities across the project
 
-Development Workflow
+### Development Workflow
+- **Notebooks** for experimentation and analysis
+- **Scripts** for running production pipelines
+- **Tests** to ensure code reliability
+- **Config files** for environment-specific settings
 
-Notebooks for experimentation and analysis
-Scripts for running production pipelines
-Tests to ensure code reliability
-Config files for environment-specific settings
+### Best Practices Included
+- Version control friendly structure
+- Separate environments for different stages
+- Comprehensive logging and monitoring
+- Documentation and model tracking
+- Scalable and maintainable codebase
 
-Best Practices Included
+## Usage Examples
 
-Version control friendly structure
-Separate environments for different stages
-Comprehensive logging and monitoring
-Documentation and model tracking
-Scalable and maintainable codebase
-
-Usage Examples
-bash# Run ETL pipeline
+```bash
+# Run ETL pipeline
 python scripts/run_etl.py --config config/config.yaml
 
 # Train regression model
@@ -116,3 +116,4 @@ python scripts/train_model.py --data data/processed/train.csv
 
 # Run batch predictions
 python scripts/batch_predict.py --model models/trained/regression_v1.pkl
+```
