@@ -1,4 +1,4 @@
-[WARNING|stderr|L14] 2025-08-17T00:17:43+0200: This is a warning message
-[ERROR|stderr|L15] 2025-08-17T00:17:43+0200: This is an error message
-[CRITICAL|stderr|L16] 2025-08-17T00:17:43+0200: This is a critical message
-[INFO|stderr|L17] 2025-08-17T00:17:43+0200: This is an info message
+[WARNING|stderr|L14] 2025-08-17T00:21:40+0200: This is a warning message
+[ERROR|stderr|L15] 2025-08-17T00:21:40+0200: This is an error message
+[CRITICAL|stderr|L16] 2025-08-17T00:21:40+0200: This is a critical message
+[INFO|stderr|L17] 2025-08-17T00:21:40+0200: This is an info message
