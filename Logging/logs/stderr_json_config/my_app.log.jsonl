@@ -1,4 +1,4 @@
-{"level": "WARNING", "message": "This is a warning message", "timestamp": "2025-08-16T22:05:05.158560+00:00", "logger": "__main__", "module": "stderr_json", "function": "main", "line": 14, "thread_name": "MainThread"}
-{"level": "ERROR", "message": "This is an error message", "timestamp": "2025-08-16T22:05:05.158829+00:00", "logger": "__main__", "module": "stderr_json", "function": "main", "line": 15, "thread_name": "MainThread"}
-{"level": "CRITICAL", "message": "This is a critical message", "timestamp": "2025-08-16T22:05:05.158884+00:00", "logger": "__main__", "module": "stderr_json", "function": "main", "line": 16, "thread_name": "MainThread"}
-{"level": "INFO", "message": "This is an info message", "timestamp": "2025-08-16T22:05:05.158944+00:00", "logger": "__main__", "module": "stderr_json", "function": "main", "line": 17, "thread_name": "MainThread"}
+{"level": "WARNING", "message": "This is a warning message", "timestamp": "2025-08-16T22:17:43.915987+00:00", "logger": "__main__", "module": "stderr_json", "function": "main", "line": 14, "thread_name": "MainThread"}
+{"level": "ERROR", "message": "This is an error message", "timestamp": "2025-08-16T22:17:43.916258+00:00", "logger": "__main__", "module": "stderr_json", "function": "main", "line": 15, "thread_name": "MainThread"}
+{"level": "CRITICAL", "message": "This is a critical message", "timestamp": "2025-08-16T22:17:43.916312+00:00", "logger": "__main__", "module": "stderr_json", "function": "main", "line": 16, "thread_name": "MainThread"}
+{"level": "INFO", "message": "This is an info message", "timestamp": "2025-08-16T22:17:43.916349+00:00", "logger": "__main__", "module": "stderr_json", "function": "main", "line": 17, "thread_name": "MainThread"}
