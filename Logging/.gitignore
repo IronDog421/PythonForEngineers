@@ -8,3 +8,5 @@ __pycache__/
 # Configuración local sensible
 *.env
 
+# macOS Finder
+.DS_Store
