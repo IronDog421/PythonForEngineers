@@ -40,6 +40,7 @@ project_name/
 │   │   ├── __init__.py
 │   │   ├── base_model.py       # Base model class
 │   │   ├── regression_model.py # Regression model implementation
+│   │   ├── classification_model.py
 │   │   ├── train.py            # Training pipeline
 │   │   └── predict.py          # Prediction pipeline
 │   └── utils/
